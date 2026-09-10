@@ -99,7 +99,7 @@ donor_instance = BloodDonorManager()   #CREATE AN OBJECT
 
 #donor_instance.retrive(id=1) #single data
 
-# donor_instance.get() #full data
+donor_instance.get() #full data
 
 # donor_instance.post(name="sanju",blood_group="AB+",phone="9875699083",city="calicut",last_donation=datetime.datetime.now())
 #insertion
